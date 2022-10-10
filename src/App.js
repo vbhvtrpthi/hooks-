@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import UseState from './Components/UseState';
+import UseEffect1 from './Components/UseEffect1';
+import UseEffect2 from './Components/UseEffect2';
+import Infinite from './Components/Infinite';
+import UseEffect3 from './Components/UseEffect3';
+import WhyImmutable from './Components/WhyImmutable';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  //  <UseState/>
+  //  <UseEffect1/>
+  //  <UseEffect2/>
+  // <Infinite></Infinite>
+  // <UseEffect3/>
+  <WhyImmutable/>
   );
 }
 
